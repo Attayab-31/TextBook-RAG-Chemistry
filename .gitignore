@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated artifacts
+sample_extracted_text.txt
+books/*
+!books/.gitkeep
+!books/class_9/
+books/class_9/*
+!books/class_9/.gitkeep
+vector_db/*
+!vector_db/.gitkeep
+chemistry_9th.json
+chemistry_9th_chunks.json
+*.npy
+*.bin
