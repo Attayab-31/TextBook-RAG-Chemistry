@@ -15,10 +15,10 @@ Ask questions against a ninth-grade chemistry textbook using semantic retrieval,
 
 [⭐ Star this repository](https://github.com/Attayab-31/TextBook-RAG-Chemistry) ·
 [Share on X](https://twitter.com/intent/tweet?text=Textbook%20RAG%20for%20Chemistry&url=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry) ·
-[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry) ·
-[Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry) ·
-[Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry&title=Textbook%20RAG%20for%20Chemistry) ·
-[WhatsApp](https://api.whatsapp.com/send?text=Textbook%20RAG%20for%20Chemistry%20https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry)
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry) ·
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry) ·
+[Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry&title=Textbook%20RAG%20for%20Chemistry) ·
+[Share on WhatsApp](https://api.whatsapp.com/send?text=Textbook%20RAG%20for%20Chemistry%20https%3A%2F%2Fgithub.com%2FAttayab-31%2FTextBook-RAG-Chemistry)
 
 </div>
 
