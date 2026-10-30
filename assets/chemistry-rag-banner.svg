@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Textbook RAG for Chemistry</title>
+  <desc id="desc">A chemistry flask, textbook pages, and connected retrieval nodes represent question answering grounded in textbook passages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b36"/>
+      <stop offset="1" stop-color="#173b58"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39d6c4"/>
+      <stop offset="1" stop-color="#67a9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="60" r="150" fill="#2d7890" opacity=".13"/>
+  <circle cx="1130" cy="280" r="125" fill="#62b9ab" opacity=".10"/>
+  <g fill="none" stroke="#9bbad0" stroke-width="3" opacity=".52">
+    <path d="M765 86h93m-45 0v58l-56 102a18 18 0 0 0 16 27h91a18 18 0 0 0 16-27l-56-102V86"/>
+    <path d="M788 209h75" stroke="#64e1ce" stroke-width="6"/>
+    <path d="M811 231h16m18-35h11" stroke="#c7edff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M969 104h120v150H969z" stroke="#c7edff"/>
+    <path d="M1029 104v150m-39-113h25m-25 25h25m-25 25h25m29-50h25m-25 25h25m-25 25h25" stroke="#8aa9c1" stroke-width="2"/>
+    <path d="M891 143l43-25m-40 93 47 10" stroke="#55d4c6" stroke-dasharray="5 8"/>
+    <circle cx="890" cy="143" r="7" fill="#55d4c6" stroke="none"/>
+    <circle cx="894" cy="211" r="7" fill="#69aaff" stroke="none"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="76" y="81" fill="#72e1d2" font-size="16" font-weight="700" letter-spacing="3">RETRIEVAL-AUGMENTED LEARNING</text>
+    <text x="74" y="149" fill="#f4f8ff" font-size="48" font-weight="750">Textbook RAG</text>
+    <text x="76" y="201" fill="#f4f8ff" font-size="36" font-weight="600">for Chemistry</text>
+    <text x="78" y="244" fill="#bdd0e2" font-size="18">Find relevant passages. Ask better questions.</text>
+    <rect x="78" y="266" width="150" height="28" rx="14" fill="#214b62"/>
+    <text x="96" y="285" fill="#9dece0" font-size="13" font-weight="650">CLI · PYTHON · FAISS</text>
+  </g>
+</svg>

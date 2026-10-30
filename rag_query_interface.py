@@ -7,7 +7,7 @@ Allows users to ask questions and get answers from the chemistry RAG system
 import os
 from enhanced_rag_system import EnhancedRAGSystem
 
-def main():
+def main(llm_provider="openrouter"):
     """Interactive query interface"""
     print("=== CHEMISTRY RAG QUERY INTERFACE ===")
     print("Ask questions about chemistry from the 9th grade textbook!")
@@ -16,7 +16,7 @@ def main():
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = EnhancedRAGSystem(llm_provider="openrouter")  # Using OpenRouter by default
+    rag_system = EnhancedRAGSystem(llm_provider=llm_provider)
     print("RAG system ready!")
     print()
     
@@ -131,11 +131,8 @@ if __name__ == "__main__":
     
     if has_openrouter:
         choice = input("Use OpenRouter for better answers? (y/n): ").strip().lower()
-        if choice == 'y':
-            rag_system = EnhancedRAGSystem(llm_provider="openrouter")
-        else:
-            rag_system = EnhancedRAGSystem(llm_provider="local")
+        llm_provider = "openrouter" if choice == 'y' else "local"
     else:
-        rag_system = EnhancedRAGSystem(llm_provider="local")
-    
-    main()
+        llm_provider = "local"
+
+    main(llm_provider=llm_provider)
